@@ -1,4 +1,4 @@
-#include<iostream>
+ï»¿#include<iostream>
 using namespace std;
 
 void main()
@@ -9,7 +9,7 @@ void main()
 	int arr[SIZE];
 	//arr[3] = 123;
 	//cout << arr[3] << endl;
-	cout << "Ââåäèòå çíà÷åíèå ýëåìåíòîâ: ";
+	cout << "Ð’Ð²ÐµÐ´Ð¸Ñ‚Ðµ Ð·Ð½Ð°Ñ‡ÐµÐ½Ð¸Ðµ ÑÐ»ÐµÐ¼ÐµÐ½Ñ‚Ð¾Ð²: ";
 	for (int i = 0; i < SIZE;i++)
 	{
 		cin >> arr[i];
@@ -32,8 +32,8 @@ void main()
 	{
 		sum += arr[i];
 	}
-	cout << "Ñóììà ýëåìåíòîâ ìàññèâà ðàâíà "<<sum<<endl;
-	cout << "Ñóììà ñðåäíåãî àðèôìåòè÷åñêîãî ýëåìåíòà ìàññèâà " << (double)sum / SIZE<<endl;
+	cout << "Ð¡ÑƒÐ¼Ð¼Ð° ÑÐ»ÐµÐ¼ÐµÐ½Ñ‚Ð¾Ð² Ð¼Ð°ÑÑÐ¸Ð²Ð° Ñ€Ð°Ð²Ð½Ð° "<<sum<<endl;
+	cout << "Ð¡ÑƒÐ¼Ð¼Ð° ÑÑ€ÐµÐ´Ð½ÐµÐ³Ð¾ Ð°Ñ€Ð¸Ñ„Ð¼ÐµÑ‚Ð¸Ñ‡ÐµÑÐºÐ¾Ð³Ð¾ ÑÐ»ÐµÐ¼ÐµÐ½Ñ‚Ð° Ð¼Ð°ÑÑÐ¸Ð²Ð° " << (double)sum / SIZE<<endl;
 
 	int min, max;
 	min = max = arr[0];
@@ -42,6 +42,6 @@ void main()
 		if (arr[i] < min)min = arr[i];
 		if (arr[i] > max)max = arr[i];
 	}
-	cout << "Ìèíèìàëüíîå çíà÷åíèå ðàâíî " << min << endl;
-	cout << "Ìàêñèìàëüíîå çíà÷åíèå ðàâíî " << max << endl;
+	cout << "ÐœÐ¸Ð½Ð¸Ð¼Ð°Ð»ÑŒÐ½Ð¾Ðµ Ð·Ð½Ð°Ñ‡ÐµÐ½Ð¸Ðµ Ñ€Ð°Ð²Ð½Ð¾ " << min << endl;
+	cout << "ÐœÐ°ÐºÑÐ¸Ð¼Ð°Ð»ÑŒÐ½Ð¾Ðµ Ð·Ð½Ð°Ñ‡ÐµÐ½Ð¸Ðµ Ñ€Ð°Ð²Ð½Ð¾ " << max << endl;
 }
